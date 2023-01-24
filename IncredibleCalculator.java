@@ -30,7 +30,10 @@ public class IncredibleCalculator {
                     int resultado=n1*n2;
                      System.out.println("La multiplicación de "+n1+" * "+n2+" es: "+resultado)
                     break;
-            case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
+            case 4: int n1=leerEnteroEntrada();
+                    int n2=leerEnteroEntrada();
+                    int resultado=n1/n2;
+                     System.out.println("La división entera de "+n1+" / "+n2+" es: "+resultado)
                     break;
             case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
                     break;
