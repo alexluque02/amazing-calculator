@@ -35,7 +35,10 @@ public class IncredibleCalculator {
                     int resultado=n1/n2;
                      System.out.println("La división entera de "+n1+" / "+n2+" es: "+resultado)
                     break;
-            case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
+            case 5: double n1=leerEnteroEntrada();
+                    double n2=leerEnteroEntrada();
+                    double resultado=n1/n2;
+                     System.out.println("La división con decimales de "+n1+" / "+n2+" es: "+resultado)
                     break;
 
         }
