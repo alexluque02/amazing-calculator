@@ -20,7 +20,10 @@ public class IncredibleCalculator {
                     int resultado=n1+n2;
                      System.out.println("La suma de "+n1+" + "+n2+" es: "+resultado)
                     break;
-            case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+            case 2: int n1=leerEnteroEntrada();
+                    int n2=leerEnteroEntrada();
+                    int resultado=n1-n2;
+                     System.out.println("La resta de "+n1+" - "+n2+" es: "+resultado)
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                     break;
